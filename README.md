@@ -1,6 +1,6 @@
 Welcome to the Escape Simulator Documentation wiki!
 
-![Room Editor](https://github.com/SuperJura/EscapeSimulatorWiki/blob/main/pictures/logo.png)
+![Room Editor](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/logo.png)
 
 Room Editor Topics:
 * [Custom Models](https://github.com/SuperJura/EscapeSimulatorWiki/wiki/Custom-Models)
