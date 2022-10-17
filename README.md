@@ -1,5 +1,3 @@
-Welcome to the Escape Simulator Documentation wiki!
-
 ![Room Editor](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/logo.png)
 
 Room Editor Topics:
