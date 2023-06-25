@@ -5,7 +5,7 @@ In the Escape Simulator's Room Editor, you can add dynamic behaviors to your roo
 In Room Editor, Scripting is exposed using a Logic element “Script”. When you place the object on the scene, you will have to attach a .lua script to it. In the Properties UI you can create a script if you don’t have one.
 When you have selected a script, you can click the folder icon to open it in a text editor.
 
-![Script Selector](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/scriptObjectSelector.png)
+![Script Selector](/pictures/scriptObjectSelector.png)
 ![Script Inspector](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/scriptObjectInspector.png)
 
 The object has the same attributes as any other, most importantly, visibility. While the Script object is visible, the code will run. The moment it turns invisible, the code stops executing. This allows more flexibility which code should run and when.
