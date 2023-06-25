@@ -6,7 +6,7 @@ In Room Editor, Scripting is exposed using a Logic element “Script”. When yo
 When you have selected a script, you can click the folder icon to open it in a text editor.
 
 ![Script Selector](/pictures/scriptObjectSelector.png)
-![Script Inspector](/scriptObjectInspector.png)
+![Script Inspector](/pictures/scriptObjectInspector.png)
 
 The object has the same attributes as any other, most importantly, visibility. While the Script object is visible, the code will run. The moment it turns invisible, the code stops executing. This allows more flexibility which code should run and when.
 
@@ -57,7 +57,7 @@ This variables are present in every call:
   * Called when the object becomes invisible using Activator object
 
 * SwitchStarted
-  * context ([Switch](Lua-Scripting#api-object))
+  * context ([Switch](#api-object))
   * Holds a reference to a Switch that has started.
 
 * SwitchDone
