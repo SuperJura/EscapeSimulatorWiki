@@ -6,21 +6,21 @@ In Room Editor, Scripting is exposed using a Logic element “Script”. When yo
 When you have selected a script, you can click the folder icon to open it in a text editor.
 
 ![Script Selector](/pictures/scriptObjectSelector.png)
-![Script Inspector](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/scriptObjectInspector.png)
+![Script Inspector](/scriptObjectInspector.png)
 
 The object has the same attributes as any other, most importantly, visibility. While the Script object is visible, the code will run. The moment it turns invisible, the code stops executing. This allows more flexibility which code should run and when.
 
 # Script organization
 The code is written in a .lua file and has to have a specific organization. The game fires events when something happens and executes the whole lua file. Because of that, we have to catch specific events and execute the code for them.
 
-![lua Example](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/luaExample.png)
+![lua Example](/pictures/luaExample.png)
 In the code example, you can see the way the code is organized. When the game fires an event, callType holds the event ID. So we can check the callType and execute specific code for its type.
 
 # Variables & Events
 ## Room object references
 To start scripting, you need references to the object in your room. To do that, simply name the variable that will hold the reference to the object. It will automatically be linked to every Script and you can use it in the code.
 
-![Script Variable Name](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/scriptVariableName.png)
+![Script Variable Name](/pictures/scriptVariableName.png)
 
 Here we can see a key with variable name “MainKey”.
 
@@ -30,7 +30,7 @@ You can create arrays of room objects. To do that, after the name, add {x} where
 ## Custom lua variables
 Sometimes you will have to define a variable in the code and use it throughout the playtime. To define such a variable, simply name the variable and set its value in the LuaCallType.Init chunk of code. Then you can use it in other places as well.
 
-![Custom variables](https://raw.githubusercontent.com/SuperJura/EscapeSimulatorWiki/main/pictures/customVariables.png)
+![Custom variables](/pictures/customVariables.png)
 
 Here we can see a time variable that is incremented every time an “Arrow” switch is done. When the variable is 2, it activates another switch.
 
@@ -57,7 +57,7 @@ This variables are present in every call:
   * Called when the object becomes invisible using Activator object
 
 * SwitchStarted
-  * context ([Switch](https://github.com/SuperJura/EscapeSimulatorWiki/wiki/Lua-Scripting#api-object))
+  * context ([Switch](Lua-Scripting#api-object))
   * Holds a reference to a Switch that has started.
 
 * SwitchDone
